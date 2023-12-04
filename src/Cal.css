@@ -1,0 +1,38 @@
+.main {
+    gap: 32px;
+    justify-content: center;
+}
+
+.images {
+    height: 350px;
+    width: 100%;
+    border-radius: 12%;
+}
+
+.image {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+}
+
+.navbar-link {
+    list-style: none;
+    margin: 10;
+    padding: 20;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.header1 {
+    text-align: center;
+    font-size: 50px;
+    gap: 15px;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    gap: 20px;
+}

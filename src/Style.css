@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+
+  .navbar-container div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    margin: 10;
+    padding: 20;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin: 0 10px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #222;
+    align-items: center;
+    align-content: center;
+  }
+
+  .image-container {
+    height: 81vh;
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    position: relative;
+    
+}
+
+
+  .image-container img {
+    width: 50%;
+    height: 100%;
+    /* background-image:url(assets/time-is-money.jpg) ; */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+
+}
